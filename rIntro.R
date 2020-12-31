@@ -96,3 +96,35 @@ ls() #Will output all global function and variables
 rm(x)
 
 rm(list = ls())
+
+#------------------------------------------------
+#Challenge 2
+
+mass <- 47.5
+mass <- mass * 2.3
+mass #109.25
+
+age <- 122
+age <- age - 20
+age # 102
+
+#------------------------------------------------
+#Challenge 3
+
+mass > age #True
+
+#------------------------------------------------
+
+#------------------------------------------------
+#Challenge 4
+
+rm(age, mass)
+
+#------------------------------------------------
+
+#------------------------------------------------
+#Challenge 5
+
+install.packages("ggplot2")
+install.packages("plyr")
+install.packages("gapminder")
